@@ -251,5 +251,6 @@ We summarize the root causes of the performance gap as follows and discuss how t
 * **RC#7: Precomputed Table Implementation.**
 
 
-Overall Message. The overall conclusion of this work is that, for
+Overall Message. 
+
 The overall conclusion of the work is that, with a careful implementation, it is feasible to support vector data management inside a relational database that achieves comparable performance to the state-of-the-art specialized vector database. We do not see a fundamental limitation in using a relational database to support efficient vector data management. In this way, we can use a single relational database to support more applications that involve tables and vectors. The paper lays out seven useful root causes with actionable guidelines to build a generalized vector database step by step to achieve both high performance and generality in the future.
